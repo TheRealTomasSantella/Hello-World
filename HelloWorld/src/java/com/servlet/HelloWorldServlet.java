@@ -32,7 +32,7 @@ public class HelloWorldServlet extends HttpServlet{
         for(int i = 0; i < pLang.length; i++){
             out.println("<h3>You have learned "+pLang[i]+"</h3>");
         }
-        if(box.equals("Manny Pacquaio"))
+        if(box.equals("Manny"))
             out.println("<h4>You are the champ!</h4>");
         else
             out.println("<h4>You are a loser");
